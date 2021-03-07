@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS do bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Icone ao lado do titulo -->
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <title>TM Artes em Gessos</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Nav bar bootstrap -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img src="imagens/logo.png" alt="" width="20" height="25" class="d-inline-block align-top">
+              <a class="navbar-brand" href="index.html">TM Artes em Gessos</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <form class="d-flex">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="serviços.html">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clientes.html">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                    </ul>
+                </div>
+            </form>
+            </div>
+          </nav>
+          <!-- Fecha nav bar -->
+          <!-- Sub nav bar -->
+          <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Contatos</a>
+            </div>
+          </nav>
+          <!-- fecha nav bar -->
+
+          <div class="container">
+            <form action="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">    
+                    <br>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email">
+                    <br>
+                <label for="assunto">Assunto</label>
+                <input type="text" name="assunto" id="assunto">
+                    <br>
+                <label for="mensagem">Mensagem</label>
+                <input type="text" name="mensagem" id="mensagem">
+                <button type="submit">Enviar</button>
+            </form>
+          </div>
+
+          <div class="aviso">
+              <h4>TM Artes Em Gessos</h4>
+              <p>Entre em contato conosco para  conhecer
+                melhor nosso trabalho, esclarecer dúvidas ou agendar um horário para que um orçamento sem compromisso seja feito</p>
+                <p>Agradecemos seu contato!</p>
+                <p>WhatsApp:  (51) 989161945
+                    <br>
+                    E-mail:  Tmartesemgesso@gmail.com
+                </p>
+          </div>
+
+
+
+          <!-- Rodapé -->
+        <div class="rodape">
+            <div class="card mb-3" style="width: 100%;">
+                <div class="row g-0">
+                  <div class="col-md-2">
+                    <img src="imagens/logo.png" alt="..." width="100px;" width="200px;" style="margin-top: 60px; margin-left: 50px;"> 
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h4 class="card-title">Contato</h4>
+                      <ul class="list-group list-group-flush">
+                          
+                        <li class="list-group-item">
+                            <img src="imagens/whatsapp.svg" alt="" width="20" height="25" class="d-inline-block align-top">
+                            WhattsApp (51) 989161945</li>
+                        <li class="list-group-item">
+                            <img src="imagens/instagram.svg" alt="" width="20" height="25" class="d-inline-block align-top">
+                            Instagram @tmartesemgesso</li>
+                        <li class="list-group-item">
+                            <img src="imagens/facebook.svg" alt="" width="20" height="25" class="d-inline-block align-top">
+                            Facebook TM Artes em Gesso</li>
+                        <li class="list-group-item">
+                            <img src="imagens/email.png" alt="" width="20" height="23" class="d-inline-block align-top">
+                            Email Tmartesemgesso@gmail.com</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                        <div class="card-body">
+                            <h5 class="card-title">Veja também</h5>
+                            <li class="list-group-item">Home</li>
+                            <li class="list-group-item">Contato</li>
+                            <li class="list-group-item">Serviços</li>
+                            <li class="list-group-item">Clientes</li>
+                        </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    <!-- Fecha rodape -->
+    </div>
+    <!-- Java script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
